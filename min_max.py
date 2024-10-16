@@ -7,10 +7,11 @@ print ("How many integers would you like to enter? ") #Enter integers greater th
 num_1 = int(input())
 
 print ("Please enter", num_1, "integers. ")
-_min =  int(input())
-_max =  int(input())
+num_2 = int(input())
+_min =  num_2
+_max =  num_2
 
-for num in range (1, 3):
+for num in range (num_1 - 1):
     number = int(input())  #Reads the integers one at a time
     if number > _max:
         _max = number
