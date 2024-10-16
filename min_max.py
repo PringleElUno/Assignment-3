@@ -16,5 +16,5 @@ for num in range (1, 3):
         _max = number
     if number < _min:
         _min = number
-print( "min:",_min)
-print( "max:",_max)
+print ("min:",_min)
+print ("max:",_max)
