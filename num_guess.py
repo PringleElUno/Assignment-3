@@ -29,7 +29,7 @@ while True:
         break
 # print the number of guesses user took
 if guesses_took == 1:
-    print("You guessed it in 1 tries.")
+    print("You guessed it in 1 try.")
 else:
     print("You guessed it in", guesses_took, "tries.")
 
